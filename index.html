@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="icon" href="mini-icon.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATU-Azərbaycan Texnologiya Universiteti</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <a class="free" href="#header"><i class="fa-solid fa-angle-up"></i></a>
+
+
+    <div class="searchinput">
+      <div class="inputs">
+        <i class="fa-solid fa-xmark"></i>
+        <input placeholder="Axtar..." type="text">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+
+    
+    <!--Header-->
+    <div id="header" class="nav-container">
+      <div class="top-nav">
+        <div class="top-nav-logo">
+          <img src="atu-logo.svg" alt="" />
+        </div>
+        <div class="top-nav-right">
+          <a href="#" class="top-nav-right-contact">
+            <i class="fa-solid fa-phone-volume"></i>
+            <h5>Əlaqə</h5>
+          </a>
+          <a href="#" class="top-nav-right-director">
+            <i class="fa-solid fa-file-signature"></i>
+            <h5>Rektora müraciət</h5>
+          </a>
+          <div class="top-nav-right-socials">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <div class="top-nav-right-langs">
+            <select name="langs" id="langs">
+              <option value="AZ">AZ</option>
+              <option value="EN">EN</option>
+              <option value="RU">RU</option>
+            </select>
+          </div>
+          <div class="top-nav-right-searrch">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-nav">
+        <div class="menubar">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        
+        <div class="bottom-nav-item">
+          <button>Ana səhifə</button>
+        </div>
+
+        <div class="bottom-nav-item">
+          <button>Universitet</button>
+          <div class="item-contents">
+            <div class="item-content">
+              <a href="#">Universitet tarixi</a>
+            </div>
+            <div class="item-content">
+              <a href="">İdarə etmə</a>
+            </div>
+            <div class="item-content">
+              <a href="">Strateji inkişaf planı</a>
+            </div>
+            <div class="item-content">
+              <a href="">Keyfiyyət siyasıtimiz</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-nav-item">
+          <button>Tədris</button>
+          <div class="item-contents">
+            <div class="item-content">
+              <div class="a">
+                <div
+                  style="font-size: 16px; font-weight: 300; padding: 4px 10px"
+                >
+                  Fakültələr
+                </div>
+                <div>></div>
+              </div>
+              <div class="item-content-content">
+                <a href="#">Yüngül sənaye mühəndisliyi və logistika</a>
+                <a href="#">Qida mühəndisliyi</a>
+                <a href="#">Avtomatika, telekommunikasiya və informatika</a>
+                <a href="#">İqtisadiyyat və idarəetmə</a>
+              </div>
+            </div>
+            <div class="item-content">
+              <a href="#">Təhsil haqqı və ixtisaslar</a>
+            </div>
+            <div class="item-content">
+              <a href="#">Dərs cədvəlləri</a>
+            </div>
+            <div class="item-content">
+              <a href="#">Qəbul qaydaları</a>
+            </div>
+            <div class="item-content">
+              <a href="#">Akademik təqvim</a>
+            </div>
+            <div class="item-content">
+              <a href="#">Kredit sisteminin təşkili</a>
+            </div>
+            <div class="item-content">
+              <a href="#">Akademik məsləhətçi(Tyutor)</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-nav-item">
+          <button>Elm və tədqiqat</button>
+          <div class="item-contents">
+            <div class="item-content">
+              <a href="#">Elmi tədqiqt siyasətimiz</a>
+            </div>
+            <div class="item-content">
+              <a href="#">Tələbə Elmi Cəmiyyəti (TEC)</a>
+            </div>
+            <div class="item-content">
+              <a href="#">Tədqiqatlar</a>
+            </div>
+            <div class="item-content">
+              <a href="#">Elmi nailiyyətlər</a>
+            </div>
+            <div class="item-content">
+              <a href="#">Laboratoriyalar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-nav-item">
+          <button>Elmi jurnallar</button>
+        </div>
+
+        <div class="bottom-nav-item">
+          <button>Beynəlxalq əlaqələr</button>
+          <div class="item-contents">
+            <div class="item-content">
+              <a href="#">Beynəlmilləşmə siyasətimiz</a>
+            </div>
+            <div class="item-content">
+              <a href="#">Tərəfdaş universitetlər</a>
+            </div>
+            <div class="item-content">
+              <a href="#">İkili diplom programları</a>
+            </div>
+            <div class="item-content">
+              <div class="a">
+                <div
+                  style="font-size: 16px; font-weight: 300; padding: 4px 10px"
+                >
+                  Əcnəbi tələbə qəbulu
+                </div>
+                <div>></div>
+              </div>
+              <div class="item-content-content">
+                <a href="#">Neci müraciət etməli</a>
+                <a href="#">Əcnəbilər üçün məlumat kitabçası</a>
+                <a href="#">Viza/ Miqrasiya</a>
+                <a href="#">Dil hazırlıq kursu</a>
+              </div>
+            </div>
+            <div class="item-content">
+              <a href="#">Beynəlxalq təşkilatlarla əlaqə</a>
+            </div>
+            <div class="item-content">
+              <div class="a">
+                <div
+                  style="font-size: 16px; font-weight: 300; padding: 4px 10px"
+                >
+                  Beynəlxalq layihələr və qrantlar
+                </div>
+                <div>></div>
+              </div>
+              <div class="item-content-content">
+                <a href="#">EQAC</a>
+                <a href="#">CRENG</a>
+                <a href="#">ECAR</a>
+                <a href="#">REFRESH</a>
+                <a href="#">Koreya Mərkəzi Mədəniyyət</a>
+              </div>
+            </div>
+            <div class="item-content">
+              <a href="#">Mübadilə programları</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-nav-item">
+          <button>Sosial həyat</button>
+          <div class="item-contents">
+            <div class="item-content">
+              <a href="#">Tələbə Gənclər Təşkilatı (TGT)</a>
+            </div>
+            <div class="item-content">
+              <a href="#">Tələbə Həmkarlar İttifaqı Komitəsi (THİK)</a>
+            </div>
+            <div class="item-content">
+              <a href="#">Sosial tədbirlər</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-nav-item">
+          <button>Təcrübə və karyera</button>
+          <div class="item-contents">
+            <div class="item-content">
+              <a href="#">Məzun yarmarkaları</a>
+            </div>
+            <div class="item-content">
+              <a href="#">Məzun bankı</a>
+            </div>
+            <div class="item-content">
+              <a href="#">Məzunlar haqqında statistika</a>
+            </div>
+            <div class="item-content">
+              <a href="#">Fəxri məzunlar</a>
+            </div>
+            <div class="item-content">
+              <a href="#">Təcrübə proqramları və obyektləri</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Slide-->
+    <div class="slider">
+      <div class="list">
+        <div class="item">
+          <img src="img3.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="img1.jpeg" alt="" />
+        </div>
+        <div class="item">
+          <img src="img2.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="img4.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="img5.jpg" alt="" />
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="prev"><</button>
+        <button id="next">></button>
+      </div>
+      <ul class="dots">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <!--Service-->
+    <div class="service-section">
+      <h2>Universitetin Fakültələri</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="icon">
+            <img src="service-content1.svg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Yüngül sənaye mühəndisliyi və logistika</h3>
+            <p class="h2"><b>Dekan v.m.i.e</b></p>
+            <p style="margin: 20px 0 70px 0">Əliyev Şakir Hüseynqulu Oğlu</p>
+            <p>sh.eliyev@atu.edu.az</p>
+            <p>(+994 22) 257 07 09</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="service-content2.svg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Qida mühəndisliyi</h3>
+            <p class="h2"><b>Dekan, t.f.d., dosent</b></p>
+            <p style="margin: 20px 0 50px 0">İsmayılov Mehman Telman oğlu</p>
+            <p>m.ismayilov@atu.edu.az</p>
+            <p>(+994 22) 257 08 42</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="service-content3.svg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Avtomatika, telekommunikasiya və informatika</h3>
+            <p class="h2"><b>Dekan, t.f.d., dosent</b></p>
+            <p style="margin: 20px 0 70px 0">Hacıyev Rövşən Mustafa oğlu</p>
+            <p>r.hajiyev@atu.edu.az</p>
+            <p>(+994 22) 257 63 02</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="service-content4.svg" alt="" />
+          </div>
+          <div class="content">
+            <h3>İqtisadiyyat və idarəetmə</h3>
+            <p class="h2"><b>Dekan, t.f.d., dosent</b></p>
+            <p style="margin: 20px 0 70px 0">Kərimov Fazil Cəmil oğlu</p>
+            <p>f.kerimov@atu.edu.az</p>
+            <p>(+994 22) 257 39 98</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--MVT Section-->
+    <div class="mvt">
+      <div class="mvtcard">
+        <div class="mvtcardcontent">
+          <div class="border">
+            <img src="service-content2.svg" alt="" />
+          </div>
+          <strong>M</strong>
+
+          <h3>Missiyamız</h3>
+          <p>
+            Elmi-texnoloji inkişafda bilik və bacarıqların sərhədlərini
+            genişləndirərək sənaye və cəmiyyət üçün innovativ, rəqabətədavamlı
+            və peşəkar mütəxəssis hazırlığına nail olmaq.
+          </p>
+        </div>
+      </div>
+      <div class="mvtcard">
+        <div class="mvtcardcontent">
+          <div class="border">
+            <img src="service-content4.svg" alt="" />
+          </div>
+          <strong>V</strong>
+
+          <h3>Vizyonumuz</h3>
+          <p>
+            Regionda elmi və texnoloji nailiyyətləri ilə seçilən,
+            universitet-sənaye əməkdaşlığına əsaslanan dünya standartlarına
+            uyğun lider universitet olmaq.
+          </p>
+        </div>
+      </div>
+      <div class="mvtcard">
+        <div class="mvtcardcontent">
+          <div class="border">
+            <img src="service-content3.svg" alt="" />
+          </div>
+          <strong>T</strong>
+
+          <h3>Tariximiz</h3>
+          <p>
+            Ümummilli Lider Heydər Əliyevin təşəbbüsü ilə təsis edilmiş
+            Azərbaycan Texnologiya Universiteti regionda əmək bazarı tələbatına
+            cavab verən qida, toxuculuq və yüngül sənaye, turizm, logistika,
+            metallurgiya, İKT sahələri üzrə yüksəkixtisaslı mütəxəssislərin
+            hazırlanmasını həyata keçirən ali təhsil müəssisəsidir.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--Red Container-->
+    <div class="redzone">
+      <div class="redzonecards">
+        <div class="redzonecardborder">
+          <div class="redzonecard">
+            <div class="redzonecardcontent">
+              <div class="redzonecardcontentimg">
+                <i class="fa-solid fa-user-graduate"></i>
+              </div>
+              <div class="redzonecardcontenttext">
+                <h4>Tələbələr</h4>
+                <h4>3642</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="redzonecardborder">
+          <div class="redzonecard">
+            <div class="redzonecardcontent">
+              <div class="redzonecardcontentimg">
+                <i class="fa-solid fa-person"></i>
+              </div>
+              <div class="redzonecardcontenttext">
+                <h4>Professor-müəllim heyəti</h4>
+                <h4>279</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="redzonecardborder">
+          <div class="redzonecard">
+            <div class="redzonecardcontent">
+              <div class="redzonecardcontentimg">
+                <i
+                  style="font-size: 60px"
+                  class="fa-solid fa-graduation-cap"
+                ></i>
+              </div>
+              <div class="redzonecardcontenttext3">
+                <div class="redzonecardcontenttextbakalavr">
+                  <h4>Bakalavr ixtisasları</h4>
+                  <h4>21</h4>
+                </div>
+                <div class="redzonecardcontenttextmagistr">
+                  <h4>Magistr ixtisasları</h4>
+                  <h4>34</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Xeberler-->
+    <div class="xeberler">
+      <h1>Xəbərlər, Elanlar və Tədbirlər</h1>
+
+      <div class="xeber-cards">
+        <div class="xeber-card">
+          <div class="overlay">
+            <h3>Təhsil</h3>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-microphone"></i>
+          </div>
+        </div>
+
+        <div class="xeber-card">
+          <div class="overlay">
+            <h3>Elanlar</h3>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-bullhorn"></i>
+          </div>
+        </div>
+
+        <div class="xeber-card">
+          <div class="overlay">
+            <h3>Tədbirlər</h3>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-calendar-days"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Tedbirler-->
+    <div class="tedbir">
+      <div class="tedbircontent">
+        <a class="goto" href="#"
+          >Bütün xəbərlər <i class="fa-solid fa-arrow-right"></i
+        ></a>
+        <div class="tedbircards">
+          <div class="tedbircard">
+            <div class="tedbircardcontent">
+              <div class="tedbircardimg">
+                <img src="tedbir1.jpg" alt="" />
+              </div>
+              <div class="tedbircardcalendar">
+                <i class="fa-solid fa-calendar"></i>
+                <h6>2024-04-18</h6>
+              </div>
+              <div class="tedbircardtext">
+                <p>
+                  Azərbaycan Texnologiya Universitetinin (ATU) tələbələrinin
+                  istehsalat təcrübəsi davam edir
+                </p>
+              </div>
+              <div class="tedbircardbtn">
+                <a href="#">Ətraflı</a>
+              </div>
+            </div>
+          </div>
+          <div class="tedbircard">
+            <div class="tedbircardcontent">
+              <div class="tedbircardimg">
+                <img src="tedbir2.jpg" alt="" />
+              </div>
+              <div class="tedbircardcalendar">
+                <i class="fa-solid fa-calendar"></i>
+                <h6>2024-04-16</h6>
+              </div>
+              <div class="tedbircardtext">
+                <p>
+                  Region universitetlərinə beynəlmiləlləşmə dəstəyi – yeni
+                  layihəyə start verildi
+                </p>
+              </div>
+              <div class="tedbircardbtn">
+                <a href="#">Ətraflı</a>
+              </div>
+            </div>
+          </div>
+          <div class="tedbircard">
+            <div class="tedbircardcontent">
+              <div class="tedbircardimg">
+                <img src="tedbir3.jpg" alt="" />
+              </div>
+              <div class="tedbircardcalendar">
+                <i class="fa-solid fa-calendar"></i>
+                <h6>2024-04-11</h6>
+              </div>
+              <div class="tedbircardtext">
+                <p>
+                  Ali təhsildə beynəlmiləlləşmə üzrə komitənin növbəti iclası
+                  keçirilib
+                </p>
+              </div>
+              <div class="tedbircardbtn">
+                <a href="#">Ətraflı</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Infinity slides-->
+    <div class="infinityslideheader">
+      <h2>Əməkdaşlıq etdiyimiz qurumlar və sənaye müəssisələri</h2>
+    </div>
+    <div class="slide">
+      <div class="infinityslidecontainer">
+        <!--logos-->
+        <div class="infintyslide">
+          <!--logos-slide-->
+          <a href="#"><img src="infinity1.svg" alt="" /></a>
+          <a href="#"><img src="infinity2.svg" alt="" /></a>
+          <a href="#"><img src="infinity3.svg" alt="" /></a>
+          <a href="#"><img src="infinity4.svg" alt="" /></a>
+          <a href="#"><img src="infinity5.svg" alt="" /></a>
+          <a href="#"><img src="infinity6.svg" alt="" /></a>
+          <a href="#"><img src="infinity7.svg" alt="" /></a>
+          <a href="#"><img src="infinity8d.svg" alt="" /></a>
+          <a href="#"><img src="infinity9.svg" alt="" /></a>
+          <a href="#"><img src="infinity10.svg" alt="" /></a>
+          <a href="#"><img src="infinity11.svg" alt="" /></a>
+          <a href="#"><img src="infinity12.svg" alt="" /></a>
+          <a href="#"><img src="infinity13.svg" alt="" /></a>
+          <a href="#"><img src="infinity14.svg" alt="" /></a>
+        </div>
+        <div class="infintyslide">
+          <br />
+          <!--logos-slide-->
+          <a href="#"><img src="infinity1.svg" alt="" /></a>
+          <a href="#"><img src="infinity2.svg" alt="" /></a>
+          <a href="#"><img src="infinity3.svg" alt="" /></a>
+          <a href="#"><img src="infinity4.svg" alt="" /></a>
+          <a href="#"><img src="infinity5.svg" alt="" /></a>
+          <a href="#"><img src="infinity6.svg" alt="" /></a>
+          <a href="#"><img src="infinity7.svg" alt="" /></a>
+          <a href="#"><img src="infinity8d.svg" alt="" /></a>
+          <a href="#"><img src="infinity9.svg" alt="" /></a>
+          <a href="#"><img src="infinity10.svg" alt="" /></a>
+          <a href="#"><img src="infinity11.svg" alt="" /></a>
+          <a href="#"><img src="infinity12.svg" alt="" /></a>
+          <a href="#"><img src="infinity13.svg" alt="" /></a>
+          <a href="#"><img src="infinity14.svg" alt="" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="infinityslideheader">
+      <h2>Xarici tərəfdaş universitet və institutlar</h2>
+      <br />
+      <a class="goto" style="font-size: 14px; font-weight: 200 hover" href="#"
+        >Bütün əməkdaşlar <i class="fa-solid fa-arrow-right"></i
+      ></a>
+    </div>
+    <div class="slide">
+      <div class="infinityslidecontainer">
+        <div style="animation: 18s slide infinite linear" class="infintyslide">
+          <a href="#">
+            <img src="infinity6.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity7.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity9.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity8.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity10.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity11.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity5.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity4.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity3.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity2.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity1.jpg" alt="" />
+          </a>
+        </div>
+
+        <div style="animation: 18s slide infinite linear" class="infintyslide">
+          <a href="#">
+            <img src="infinity6.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity7.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity9.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity8.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity10.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity11.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity5.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity4.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity3.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity2.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="infinity1.jpg" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--Qalereya-->
+    <!--Əlaqə-->
+    <div class="elaqetext">
+      <h3>Əlaqə</h3>
+      <p>
+        Ətraflı məlumat əldə etmək və mövcud suallarınızla bağlı bizə müraciət
+        edə bilərsiniz.
+      </p>
+    </div>
+    <div class="elaqecontainer">
+      <div class="elaqe">
+        <div class="elaqeinput">
+          <div class="inputs">
+            <div class="input1">
+              <input type="text" placeholder="Ad" />
+              <input type="text" placeholder="Soyad" />
+            </div>
+            <div class="input2">
+              <input type="email" placeholder="Elektron-poçt" />
+              <input type="text" placeholder="Əlaqə nömrəsi" />
+            </div>
+            <textarea
+              name="coments"
+              id="coments"
+              placeholder="Mesajı yazın..."
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button type="submit">Göndər</button>
+          </div>
+        </div>
+        <div  class="elaqemap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.337296861439!2d46.384215774924215!3d40.68856853905152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403f517e6ed3bf3b%3A0x6dfd5cace6a75e75!2sAzerbaycan%20Teknoloji%20%C3%9Cniversitesi!5e0!3m2!1str!2saz!4v1713950821300!5m2!1str!2saz"
+            width="100%"
+            height="485"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="footercontainer">
+      <footer>
+        <img src="atu-logo.svg" alt="" />
+        <div class="footerdestination">
+          <div class="footersocials">
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+          </div>
+          <p>Gəncə ş. AZ2011 Şah İsmayıl <br> Xətai prospekti 103</p>
+        </div>
+        <div class="footersites">
+          <div class="footergmail">
+            <i class="fa-solid fa-envelope"></i>
+            <p>info@atu.edu.az</p>
+          </div>
+          <div class="footergmail">
+            <i class="fa-brands fa-chrome"></i>
+            <p>www.atu.edu.az</p>
+          </div>
+          <div class="footergmail">
+            <i class="fa-solid fa-phone"></i>
+            <p>(+994 22) 257-56-29</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="end">
+      <p>Bütün hüquqlar qorunur &copy; 2024 K</p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
